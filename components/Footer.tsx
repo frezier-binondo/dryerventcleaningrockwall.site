@@ -23,19 +23,19 @@ export function Footer() {
                 Restore full dryer airflow, cut drying cycles in half, and protect your loved ones with our certified rotary brush cleaning.
               </p>
             </div>
-            <div className="flex flex-col sm:flex-row items-center gap-4 w-full lg:w-auto">
+            <div className="flex flex-row flex-wrap sm:flex-nowrap items-center gap-3 sm:gap-4 w-full lg:w-auto shrink-0">
               <a
                 href={`tel:${COMPANY.phone}`}
-                className="w-full sm:w-auto px-8 py-4 bg-amber-500 hover:bg-amber-400 text-slate-950 font-black rounded-2xl text-lg flex items-center justify-center gap-3 shadow-xl shadow-amber-500/20 hover:scale-105 transition-all"
+                className="flex-1 sm:flex-none px-5 sm:px-8 py-3.5 sm:py-4 bg-amber-500 hover:bg-amber-400 text-slate-950 font-black rounded-2xl text-base sm:text-lg flex items-center justify-center gap-2 sm:gap-3 shadow-xl shadow-amber-500/20 hover:scale-105 transition-all whitespace-nowrap shrink-0"
               >
-                <Phone className="w-6 h-6 fill-current" />
-                <span>{COMPANY.phoneFormatted}</span>
+                <Phone className="w-5 h-5 sm:w-6 sm:h-6 fill-current shrink-0" />
+                <span className="whitespace-nowrap">{COMPANY.phoneFormatted}</span>
               </a>
               <Link
                 href="/contact"
-                className="w-full sm:w-auto px-8 py-4 bg-sky-600 hover:bg-sky-500 text-white font-bold rounded-2xl text-lg flex items-center justify-center gap-2 transition-all hover:scale-105"
+                className="flex-1 sm:flex-none px-5 sm:px-8 py-3.5 sm:py-4 bg-sky-600 hover:bg-sky-500 text-white font-bold rounded-2xl text-base sm:text-lg flex items-center justify-center gap-2 transition-all hover:scale-105 whitespace-nowrap shrink-0"
               >
-                <span>Book Free Quote</span>
+                <span className="whitespace-nowrap">Book Free Quote</span>
               </Link>
             </div>
           </div>
