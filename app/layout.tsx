@@ -89,10 +89,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable} h-full scroll-smooth`}>
-      <head>
-        <JsonLd />
-      </head>
       <body className="min-h-full flex flex-col font-sans bg-slate-50 text-slate-900 antialiased selection:bg-amber-500 selection:text-white pb-14 sm:pb-0">
+        <JsonLd />
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />

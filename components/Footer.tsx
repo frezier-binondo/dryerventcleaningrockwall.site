@@ -220,7 +220,7 @@ export function Footer() {
 
         {/* Bottom Bar */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
-          <div>
+          <div suppressHydrationWarning>
             © {new Date().getFullYear()} Dryer Vent Cleaning Rockwall. All rights reserved.
           </div>
           <div className="flex items-center gap-6">
