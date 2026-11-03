@@ -96,7 +96,7 @@ export const SERVICES: ServiceItem[] = [
     h1: "Dryer Vent Cleaning in Rockwall, TX",
     shortDesc: "Complete lint extraction and airflow restoration for residential homes across Rockwall and Lake Ray Hubbard communities.",
     iconName: "Wind",
-    image: "https://images.unsplash.com/photo-1582735689369-4fe89db7114c?auto=format&fit=crop&w=1200&q=80",
+    image: "/images/dryer-vent-cleaning.jpg",
     targetWordCount: 1800,
     benefits: [
       "Eliminates lethal flammable lint build-up inside wall and roof ducts",
@@ -176,7 +176,7 @@ export const SERVICES: ServiceItem[] = [
     h1: "Dryer Vent Inspection in Rockwall, TX",
     shortDesc: "In-depth diagnostic camera scoping, backpressure analysis, and municipal code compliance checks.",
     iconName: "Eye",
-    image: "https://images.unsplash.com/photo-1761079976271-3a78f547ca67?auto=format&fit=crop&w=1200&q=80",
+    image: "/images/dryer-vent-inspection.jpg",
     targetWordCount: 1400,
     benefits: [
       "Pinpoints hidden duct disconnections behind drywall or inside attics",
@@ -248,7 +248,7 @@ export const SERVICES: ServiceItem[] = [
     h1: "Dryer Vent Repair in Rockwall, TX",
     shortDesc: "Expert repair of crushed flex hoses, detached attic seams, damaged roof vents, and code-violating layouts.",
     iconName: "Wrench",
-    image: "https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?auto=format&fit=crop&w=1200&q=80",
+    image: "/images/dryer-vent-repair.jpg",
     targetWordCount: 1400,
     benefits: [
       "Stops hot lint and humid air from venting inside walls or attic spaces",
@@ -320,7 +320,7 @@ export const SERVICES: ServiceItem[] = [
     h1: "Dryer Vent Installation in Rockwall, TX",
     shortDesc: "Complete new duct run design and professional installation for remodels, additions, and relocations.",
     iconName: "Hammer",
-    image: "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?auto=format&fit=crop&w=1200&q=80",
+    image: "/images/dryer-vent-installation.jpg",
     targetWordCount: 1300,
     benefits: [
       "Precision diamond-core wall cutting and watertight exterior siding flashing",
@@ -392,7 +392,7 @@ export const SERVICES: ServiceItem[] = [
     h1: "Dryer Vent Replacement in Rockwall, TX",
     shortDesc: "Complete replacement of outdated, deteriorated, or hazardous foil and vinyl dryer vent tubing.",
     iconName: "RefreshCw",
-    image: "https://images.unsplash.com/photo-1585659722983-3a675dabf23d?auto=format&fit=crop&w=1200&q=80",
+    image: "/images/dryer-vent-replacement.jpg",
     targetWordCount: 1200,
     benefits: [
       "Replaces flammable white vinyl and accordion foil ducts with fire-safe rigid metal",
@@ -457,7 +457,7 @@ export const SERVICES: ServiceItem[] = [
     h1: "Dryer Vent Unclogging in Rockwall, TX",
     shortDesc: "Emergency clearance of complete duct blockages, wet lint dams, animal debris, and foreign objects.",
     iconName: "AlertTriangle",
-    image: "https://images.unsplash.com/photo-1500618506235-88a25423764f?auto=format&fit=crop&w=1200&q=80",
+    image: "/images/dryer-vent-unclogging.jpg",
     targetWordCount: 1200,
     benefits: [
       "Rapid same-day response to clear total zero-airflow clogs",
@@ -522,7 +522,7 @@ export const SERVICES: ServiceItem[] = [
     h1: "Dryer Vent Bird Nest Removal in Rockwall, TX",
     shortDesc: "Humane removal of avian nests, twigs, and pest debris, followed by heavy-duty vent guard installation.",
     iconName: "ShieldAlert",
-    image: "https://images.unsplash.com/photo-1583987276728-0615ed77d0f3?auto=format&fit=crop&w=1200&q=80",
+    image: "/images/dryer-vent-bird-nest-removal.jpg",
     targetWordCount: 1200,
     benefits: [
       "Safely removes flammable sticks, feathers, straw, and droppings",
@@ -594,7 +594,7 @@ export const SERVICES: ServiceItem[] = [
     h1: "Commercial Dryer Vent Cleaning in Rockwall, TX",
     shortDesc: "High-capacity exhaust cleaning and fire code compliance for laundromats, hotels, gyms, salons, and care facilities.",
     iconName: "Building2",
-    image: "https://images.unsplash.com/photo-1793022347383-3261ac82793f?auto=format&fit=crop&w=1200&q=80",
+    image: "/images/commercial-dryer-vent-cleaning.jpg",
     targetWordCount: 1500,
     benefits: [
       "Protects commercial capital assets and prevents costly business interruption",
@@ -659,7 +659,7 @@ export const SERVICES: ServiceItem[] = [
     h1: "Apartment Dryer Vent Cleaning in Rockwall, TX",
     shortDesc: "High-volume multi-unit, condominium, and HOA dryer exhaust maintenance programs with resident coordination.",
     iconName: "Layers",
-    image: "https://images.unsplash.com/photo-1630699375277-f13701bcdc00?auto=format&fit=crop&w=1200&q=80",
+    image: "/images/apartment-dryer-vent-cleaning.jpg",
     targetWordCount: 1400,
     benefits: [
       "Substantial bulk volume discounts for property management companies and HOAs",
@@ -724,7 +724,7 @@ export const SERVICES: ServiceItem[] = [
     h1: "Dryer Vent Maintenance in Rockwall, TX",
     shortDesc: "Comprehensive annual maintenance plans, automated service reminders, and priority emergency booking.",
     iconName: "CalendarCheck",
-    image: "https://images.unsplash.com/photo-1646592474094-342fbc28736c?auto=format&fit=crop&w=1200&q=80",
+    image: "/images/dryer-vent-maintenance.jpg",
     targetWordCount: 1200,
     benefits: [
       "Automated annual scheduling reminders so you never forget fire safety checkups",
@@ -794,7 +794,7 @@ export const LOCATIONS: LocationItem[] = [
     h1: "Dryer Vent Cleaning in Rockwall, TX",
     shortDesc: "Premier dryer vent cleaning, inspection, and repair services for homes and lakeside properties in Rockwall, Texas.",
     intro: "Lint packed into a dryer vent restricts airflow, lengthens drying times and is a leading cause of home dryer fires. Professional dryer vent cleaning removes lint from the full duct run, from the dryer connection to the exterior termination. Rockwall homes range from established neighborhoods near the Harbor and Lake Ray Hubbard shoreline to newer subdivisions, and long dryer duct runs through two-story layouts are common. We provide dryer vent cleaning throughout Rockwall, TX.",
-    image: "https://images.unsplash.com/photo-1722942624786-19c434e9760a?auto=format&fit=crop&w=1200&q=80",
+    image: "/images/hero-dryer-vent.jpg",
     neighborhoods: ["The Harbor at Rockwall", "Chandlers Landing", "Caruth Lakes", "Shores of Rockwall", "Castle Crossing", "Dalton Ranch", "Stone Creek", "Historic Downtown Rockwall"],
     housingCharacteristics: "Rockwall features a blend of lakeside custom estates with complex multi-level layouts alongside sprawling suburban developments. Two-story homes built over the last 20 years typically feature second-floor laundry rooms that vent through 30+ feet of ductwork to elevated roof jacks.",
     commonIssues: [
@@ -863,7 +863,7 @@ export const LOCATIONS: LocationItem[] = [
     h1: "Dryer Vent Cleaning in Heath, TX",
     shortDesc: "Specialized dryer vent cleaning, inspection, and animal guard installation for custom and lakeside homes in Heath, TX.",
     intro: "Lint packed into a dryer vent restricts airflow, lengthens drying times and is a leading cause of home dryer fires. Professional dryer vent cleaning removes lint from the full duct run, from the dryer connection to the exterior termination. Heath is known for larger lots and custom homes near Lake Ray Hubbard, where long vent runs, upstairs laundry rooms and roof or wall terminations are common. We provide dryer vent cleaning throughout Heath, TX.",
-    image: "https://images.unsplash.com/photo-1721521903394-24c72735baa4?auto=format&fit=crop&w=1200&q=80",
+    image: "/images/user-technician-vent.jpg",
     neighborhoods: ["Buffalo Creek", "Heath Golf & Yacht Club", "Terry Lane area", "Foresight Ranch", "Shepherds Glen", "Cobblestone Farms", "Loch Braeland"],
     housingCharacteristics: "Heath is distinguished by sprawling acreage lots, premier golf course properties, and custom luxury estates. Multi-story floor plans with executive master suites often place laundry facilities deep within interior quarters, resulting in extended 35-to-45-foot duct trajectories.",
     commonIssues: [
@@ -931,7 +931,7 @@ export const LOCATIONS: LocationItem[] = [
     h1: "Dryer Vent Cleaning in Fate, TX",
     shortDesc: "Fast, reliable dryer vent cleaning, inspection, and duct upgrades for growing master-planned neighborhoods in Fate, Texas.",
     intro: "Lint packed into a dryer vent restricts airflow, lengthens drying times and is a leading cause of home dryer fires. Professional dryer vent cleaning removes lint from the full duct run, from the dryer connection to the exterior termination. Fate has grown quickly with newer subdivisions, so many dryer vents are only a few years old but may have crushed, kinked or builder-grade flex duct. We provide dryer vent cleaning throughout Fate, TX.",
-    image: "https://images.unsplash.com/photo-1652664767434-9cf9447d499a?auto=format&fit=crop&w=1200&q=80",
+    image: "/images/dryer-vent-cleaning.jpg",
     neighborhoods: ["Woodcreek", "Williamsburg", "Chamberlain Crossing", "Montarra", "North Fate", "Spring Meadow", "Hartlake"],
     housingCharacteristics: "Fate is one of the fastest-growing communities in North Texas, characterized by modern master-planned subdivisions constructed by national and regional production builders. Homes typically date from 2010 to present, featuring dense two-story and single-story floor plans.",
     commonIssues: [
@@ -999,7 +999,7 @@ export const LOCATIONS: LocationItem[] = [
     h1: "Dryer Vent Cleaning in Royse City, TX",
     shortDesc: "Comprehensive dryer vent cleaning, repairs, and lint extraction for new developments and historic homes in Royse City, Texas.",
     intro: "Lint packed into a dryer vent restricts airflow, lengthens drying times and is a leading cause of home dryer fires. Professional dryer vent cleaning removes lint from the full duct run, from the dryer connection to the exterior termination. Royse City is expanding with new construction, so installers see builder-grade duct, short-run terminations and homes that have never had a vent cleaning. We provide dryer vent cleaning throughout Royse City, TX.",
-    image: "https://images.unsplash.com/photo-1721825155095-c36a86722621?auto=format&fit=crop&w=1200&q=80",
+    image: "/images/duct-brush-close-up.jpg",
     neighborhoods: ["Waters Edge", "Hidden Creek", "Meadow Ridge", "Creekside", "Royse City Historic District", "Verona", "Parkside"],
     housingCharacteristics: "Royse City combines historic downtown turn-of-the-century residences with massive new master-planned subdivisions east along the I-30 growth corridor. Newer subdivisions feature two-story homes with long roof vent runs, while older homes often feature legacy crawlspace or exterior wall vents.",
     commonIssues: [
@@ -1067,7 +1067,7 @@ export const LOCATIONS: LocationItem[] = [
     h1: "Dryer Vent Cleaning in Rowlett, TX",
     shortDesc: "Expert dryer vent cleaning, inspection, and repairs for lakeside and golf communities across Rowlett, Texas.",
     intro: "Lint packed into a dryer vent restricts airflow, lengthens drying times and is a leading cause of home dryer fires. Professional dryer vent cleaning removes lint from the full duct run, from the dryer connection to the exterior termination. Rowlett mixes established lakeside neighborhoods with newer developments, so vent ages and routing vary widely from one street to the next. We provide dryer vent cleaning throughout Rowlett, TX.",
-    image: "https://images.unsplash.com/photo-1729073375325-99978ce4d052?auto=format&fit=crop&w=1200&q=80",
+    image: "/images/user-duct-brush.jpg",
     neighborhoods: ["Waterview", "Lake Pointe", "Harbor Point", "Princeton Park", "Bayside", "Liberty Grove", "Merritt Park"],
     housingCharacteristics: "Rowlett is positioned along the western shoreline of Lake Ray Hubbard, featuring established 1980s-2000s subdivisions like Waterview alongside brand-new master-planned developments. Architectural styles range from traditional brick ranches to complex multi-level lakeside homes.",
     commonIssues: [
@@ -1135,7 +1135,7 @@ export const LOCATIONS: LocationItem[] = [
     h1: "Dryer Vent Cleaning in Wylie, TX",
     shortDesc: "Professional lint removal, camera inspection, and bird guard installation for family homes across Wylie, Texas.",
     intro: "Lint packed into a dryer vent restricts airflow, lengthens drying times and is a leading cause of home dryer fires. Professional dryer vent cleaning removes lint from the full duct run, from the dryer connection to the exterior termination. Wylie has a large base of family homes built over the last two decades, which means many vents are due for a first or second professional cleaning. We provide dryer vent cleaning throughout Wylie, TX.",
-    image: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1200&q=80",
+    image: "/images/dryer-vent-unclogging.jpg",
     neighborhoods: ["Woodbridge", "Birmingham Farms", "Twin Lakes", "Inspiration", "Bozman Farms", "Kreymer Estates", "Creekside Estates"],
     housingCharacteristics: "Wylie features master-planned family subdivisions built predominantly between 2000 and 2020. Many homes feature two-story designs with second-floor laundry rooms or centrally located utility closets venting through long attic pathways to exterior roof vents.",
     commonIssues: [
@@ -1206,7 +1206,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Maintenance Guide",
     author: "Rockwall Fire Safety Team",
     excerpt: "Most single-family homes in Rockwall, TX require professional dryer vent cleaning at least once every 12 months. However, households with large families, pets, or long roof runs should schedule service every 6 to 9 months.",
-    image: "https://images.unsplash.com/photo-1582735689369-4fe89db7114c?auto=format&fit=crop&w=1200&q=80",
+    image: "/images/hero-dryer-vent.jpg",
     faqs: [
       { q: "What happens if I don't clean my dryer vent for two years?", a: "Lint progressively accumulates until airflow is choked. This increases drying times, spikes electricity bills, causes dryer overheating, and creates a critical fire hazard." },
       { q: "Does emptying my lint screen after every load mean my vent is clean?", a: "No. The lint screen captures only about 70-80% of fibers. The remaining fine lint travels into the ductwork, sticking to moist pipe walls and elbows." },
@@ -1259,7 +1259,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Safety & Warning Signs",
     author: "Rockwall Fire Safety Team",
     excerpt: "Recognize the 7 telltale warning signs of a clogged dryer vent before an appliance breakdown or hazardous laundry fire occurs in your Rockwall home.",
-    image: "https://images.unsplash.com/photo-1500618506235-88a25423764f?auto=format&fit=crop&w=1200&q=80",
+    image: "/images/duct-brush-close-up.jpg",
     faqs: [
       { q: "Is a burning smell from the dryer an emergency?", a: "Yes! A burning or scorched odor indicates that trapped lint is overheating or directly touching electrical heating coils. Turn off the dryer immediately and do not run it until serviced." },
       { q: "Why are my clothes scorching hot when I take them out?", a: "When exhaust air cannot escape, heat builds up inside the drum cabinet to dangerous levels, transferring excess heat into metal zippers, buttons, and fabrics." },
@@ -1310,7 +1310,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Fire Prevention",
     author: "Rockwall Fire Safety Team",
     excerpt: "Clothes dryer fires cause thousands of residential structure fires and millions in property damage every year. Learn how lint ignition occurs and how to safeguard your home.",
-    image: "https://images.unsplash.com/photo-1761079976271-3a78f547ca67?auto=format&fit=crop&w=1200&q=80",
+    image: "/images/dryer-vent-unclogging.jpg",
     faqs: [
       { q: "How hot can a clothes dryer get if the vent is clogged?", a: "Internal dryer temperatures can exceed 250°F to 300°F when exhaust airflow is restricted, well above the ignition point of fine cotton and synthetic lint." },
       { q: "Which part of the dryer actually catches fire first?", a: "Fires usually start when lint that has built up inside the dryer cabinet or transition hose contacts the glowing electrical heating element or natural gas burner flame." },
@@ -1360,7 +1360,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Troubleshooting",
     author: "Rockwall Fire Safety Team",
     excerpt: "If your clothes dryer requires two or three cycles to dry a single load, the culprit is almost always airflow restriction rather than appliance failure.",
-    image: "https://images.unsplash.com/photo-1630699375277-f13701bcdc00?auto=format&fit=crop&w=1200&q=80",
+    image: "/images/user-duct-brush.jpg",
     faqs: [
       { q: "Could my dryer heating element be bad if clothes are still damp?", a: "If the drum gets warm or hot at all, the heating element is functioning. The issue is that the moist, humid air cannot escape the drum because the exhaust duct is blocked." },
       { q: "How much longer does a clogged vent make a load take?", a: "A severely clogged vent can double or triple cycle times, turning a 40-minute load into a 90- to 120-minute ordeal." },
@@ -1404,7 +1404,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Homeowner Education",
     author: "Rockwall Fire Safety Team",
     excerpt: "Learn the crucial differences in purpose, equipment, and safety between HVAC air duct cleaning and dedicated dryer exhaust vent cleaning.",
-    image: "https://images.unsplash.com/photo-1574269909862-7e1d70bb8078?auto=format&fit=crop&w=1200&q=80",
+    image: "/images/dryer-vent-inspection.jpg",
     faqs: [
       { q: "Can my HVAC company clean my dryer vent when doing air ducts?", a: "Some do, but many lack specialized high-torque reverse whip rods and small-diameter HEPA collection collars designed specifically for 4-inch rigid dryer ducting." },
       { q: "Which service is more urgent for fire safety?", a: "Dryer vent cleaning is significantly more critical for immediate fire prevention because dryer lint is intensely combustible and sits directly adjacent to intense heating elements." },
@@ -1442,7 +1442,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Energy Savings",
     author: "Rockwall Fire Safety Team",
     excerpt: "Discover how a clogged dryer vent wastes hundreds of dollars in excess electricity and gas every year, and how routine cleaning pays for itself.",
-    image: "https://images.unsplash.com/photo-1646592474094-342fbc28736c?auto=format&fit=crop&w=1200&q=80",
+    image: "/images/dryer-vent-maintenance.jpg",
     faqs: [
       { q: "How much electricity does a typical electric clothes dryer use?", a: "An electric dryer consumes between 2,000 and 5,000 watts per hour, making it one of the highest energy-consuming appliances in your home alongside your HVAC unit." },
       { q: "How much money can professional dryer vent cleaning save on bills?", a: "By cutting drying times from 80-90 minutes back to 35-40 minutes, average households save between $180 and $300 annually on utility bills." },
@@ -1480,7 +1480,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Pest Prevention",
     author: "Rockwall Fire Safety Team",
     excerpt: "Protect your Rockwall home from avian nesting blockages with code-approved animal exclusion guards and seasonal preventative maintenance tips.",
-    image: "https://images.unsplash.com/photo-1583987276728-0615ed77d0f3?auto=format&fit=crop&w=1200&q=80",
+    image: "/images/dryer-vent-bird-nest-removal.jpg",
     faqs: [
       { q: "What time of year do birds typically nest in dryer vents?", a: "In North Texas, spring nesting season begins in late February and peaks between March and June, though starlings will seek sheltered nesting cavities throughout the warm months." },
       { q: "Why shouldn't I use window screen mesh over my vent hood?", a: "Fine wire mesh catches lint fibers instantly. Within 2 to 3 weeks, lint blankets the screen, completely sealing off exhaust flow and creating an extreme fire hazard." },
@@ -1517,7 +1517,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Service Overview",
     author: "Rockwall Fire Safety Team",
     excerpt: "Wondering what to expect when a technician visits your home? Here is a transparent breakdown of a complete professional dryer vent cleaning service.",
-    image: "https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?auto=format&fit=crop&w=1200&q=80",
+    image: "/images/user-technician-vent.jpg",
     faqs: [
       { q: "Do your technicians clean from inside the home or from the outside?", a: "A thorough cleaning requires access from both ends: we connect specialized HEPA containment from inside and use rotary whips from both the laundry room and the exterior roof or wall termination." },
       { q: "Will the cleaning create a mess or dust in my laundry room?", a: "Not at all. We use sealed negative-air containment collars and commercial HEPA vacuums that capture 99.97% of all dislodged lint, keeping your home completely clean." },
@@ -1555,7 +1555,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Pricing Guide",
     author: "Rockwall Fire Safety Team",
     excerpt: "A complete guide to dryer vent cleaning costs in Rockwall County, including pricing factors like duct length, roof access, and common repair costs.",
-    image: "https://images.unsplash.com/photo-1722942624786-19c434e9760a?auto=format&fit=crop&w=1200&q=80",
+    image: "/images/dryer-vent-repair.jpg",
     faqs: [
       { q: "What is the average cost of dryer vent cleaning in Rockwall?", a: "Most residential single-family dryer vent cleanings in Rockwall and surrounding cities cost between $119 and $189 depending on duct length and whether termination is on a wall or high roof pitch." },
       { q: "Why are roof vent cleanings slightly more expensive than side wall vents?", a: "Roof vents require specialized ladder and harness safety setups, as well as accessing and cleaning the exterior roof jack and damper from the roof surface." },
@@ -1593,7 +1593,7 @@ export const BLOG_POSTS: BlogPost[] = [
     category: "Commercial & HOA",
     author: "Rockwall Fire Safety Team",
     excerpt: "Best practices for property managers, landlords, and HOA boards managing multi-unit dryer exhaust systems across Rockwall County.",
-    image: "https://images.unsplash.com/photo-1793022347383-3261ac82793f?auto=format&fit=crop&w=1200&q=80",
+    image: "/images/apartment-dryer-vent-cleaning.jpg",
     faqs: [
       { q: "How frequently should apartment complexes clean their dryer vents?", a: "Property managers should schedule annual building-wide cleanings to comply with fire codes and prevent resident dryer fires." },
       { q: "Do you offer bulk per-unit pricing for HOA communities?", a: "Yes. We offer tiered volume pricing that lowers per-unit costs significantly when multiple units or entire buildings are scheduled together." },

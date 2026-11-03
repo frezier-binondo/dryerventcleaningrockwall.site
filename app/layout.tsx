@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1582735689369-4fe89db7114c?auto=format&fit=crop&w=1200&q=80",
+        url: "https://dryerventcleaningrockwall.site/images/hero-dryer-vent.jpg",
         width: 1200,
         height: 630,
         alt: "Professional Dryer Vent Cleaning in Rockwall TX",
@@ -67,7 +67,7 @@ export const metadata: Metadata = {
     title: "Dryer Vent Cleaning Rockwall TX | Professional Service",
     description:
       "Keep your home safe and your dryer efficient with professional dryer vent cleaning in Rockwall, TX. Fast quotes & certified technicians.",
-    images: ["https://images.unsplash.com/photo-1582735689369-4fe89db7114c?auto=format&fit=crop&w=1200&q=80"],
+    images: ["https://dryerventcleaningrockwall.site/images/hero-dryer-vent.jpg"],
   },
   robots: {
     index: true,

@@ -157,7 +157,7 @@ export default function HomePage() {
               <div className="rounded-3xl overflow-hidden border border-slate-200 shadow-lg relative my-8">
                 <div className="relative h-72 sm:h-96 w-full">
                   <Image
-                    src="https://images.unsplash.com/photo-1582735689369-4fe89db7114c?auto=format&fit=crop&w=1200&q=80"
+                    src="/images/hero-dryer-vent.jpg"
                     alt="Professional Dryer Vent Cleaning in Rockwall Texas"
                     fill
                     className="object-cover"
