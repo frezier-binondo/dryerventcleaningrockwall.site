@@ -10,8 +10,8 @@ export function Footer() {
         {/* Top Emergency CTA Strip */}
         <div className="bg-gradient-to-r from-sky-900 via-slate-900 to-amber-950 rounded-3xl p-8 sm:p-10 mb-16 border border-sky-800/40 shadow-2xl relative overflow-hidden">
           <div className="absolute right-0 top-0 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl pointer-events-none"></div>
-          <div className="flex flex-col lg:flex-row items-center justify-between gap-8 relative z-10">
-            <div>
+          <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6 lg:gap-8 relative z-10">
+            <div className="flex-1 min-w-0">
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/20 text-amber-400 text-xs font-bold mb-3 border border-amber-500/30">
                 <Flame className="w-3.5 h-3.5 text-amber-400" />
                 <span>Fast Local Response Across Rockwall County</span>
@@ -23,19 +23,25 @@ export function Footer() {
                 Restore full dryer airflow, cut drying cycles in half, and protect your loved ones with our certified rotary brush cleaning.
               </p>
             </div>
-            <div className="flex flex-row flex-wrap sm:flex-nowrap items-center gap-3 sm:gap-4 w-full lg:w-auto shrink-0">
+            <div className="flex flex-row items-center gap-3 sm:gap-4 shrink-0">
               <a
                 href={`tel:${COMPANY.phone}`}
-                className="flex-1 sm:flex-none px-5 sm:px-8 py-3.5 sm:py-4 bg-amber-500 hover:bg-amber-400 text-slate-950 font-black rounded-2xl text-base sm:text-lg flex items-center justify-center gap-2 sm:gap-3 shadow-xl shadow-amber-500/20 hover:scale-105 transition-all whitespace-nowrap shrink-0"
+                style={{ whiteSpace: "nowrap" }}
+                className="px-6 sm:px-8 py-3.5 sm:py-4 bg-amber-500 hover:bg-amber-400 text-slate-950 font-black rounded-2xl text-base sm:text-lg flex items-center justify-center gap-2 sm:gap-3 shadow-xl shadow-amber-500/20 hover:scale-105 transition-all whitespace-nowrap shrink-0"
               >
                 <Phone className="w-5 h-5 sm:w-6 sm:h-6 fill-current shrink-0" />
-                <span className="whitespace-nowrap">{COMPANY.phoneFormatted}</span>
+                <span style={{ whiteSpace: "nowrap" }} className="whitespace-nowrap">
+                  +1&#160;(469)&#160;402&#8209;9980
+                </span>
               </a>
               <Link
                 href="/contact"
-                className="flex-1 sm:flex-none px-5 sm:px-8 py-3.5 sm:py-4 bg-sky-600 hover:bg-sky-500 text-white font-bold rounded-2xl text-base sm:text-lg flex items-center justify-center gap-2 transition-all hover:scale-105 whitespace-nowrap shrink-0"
+                style={{ whiteSpace: "nowrap" }}
+                className="px-6 sm:px-8 py-3.5 sm:py-4 bg-sky-600 hover:bg-sky-500 text-white font-bold rounded-2xl text-base sm:text-lg flex items-center justify-center gap-2 transition-all hover:scale-105 whitespace-nowrap shrink-0"
               >
-                <span className="whitespace-nowrap">Book Free Quote</span>
+                <span style={{ whiteSpace: "nowrap" }} className="whitespace-nowrap">
+                  Book&#160;Free&#160;Quote
+                </span>
               </Link>
             </div>
           </div>
