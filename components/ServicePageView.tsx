@@ -93,19 +93,25 @@ export function ServicePageView({ service }: ServicePageViewProps) {
                 {service.shortDesc}
               </p>
 
-              <div className="flex flex-wrap gap-4 pt-2">
+              <div className="flex flex-col sm:flex-row flex-wrap gap-4 pt-2">
                 <a
                   href={`tel:${COMPANY.phone}`}
-                  className="px-7 py-3.5 bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold rounded-xl text-base flex items-center gap-2 shadow-lg transition-transform hover:scale-105"
+                  style={{ whiteSpace: "nowrap" }}
+                  className="px-7 py-3.5 bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold rounded-xl text-base inline-flex items-center justify-center gap-2 shadow-lg transition-transform hover:scale-105 whitespace-nowrap shrink-0 min-w-fit"
                 >
-                  <Phone className="w-5 h-5 fill-current" />
-                  <span>Call {COMPANY.phoneFormatted}</span>
+                  <Phone className="w-5 h-5 fill-current shrink-0" />
+                  <span style={{ whiteSpace: "nowrap" }} className="whitespace-nowrap inline-block">
+                    Call +1&#160;(469)&#160;402&#8209;9980
+                  </span>
                 </a>
                 <Link
                   href="/contact"
-                  className="px-7 py-3.5 bg-sky-600 hover:bg-sky-500 text-white font-bold rounded-xl text-base flex items-center gap-2 transition-transform hover:scale-105"
+                  style={{ whiteSpace: "nowrap" }}
+                  className="px-7 py-3.5 bg-sky-600 hover:bg-sky-500 text-white font-bold rounded-xl text-base inline-flex items-center justify-center gap-2 transition-transform hover:scale-105 whitespace-nowrap shrink-0 min-w-fit"
                 >
-                  <span>Book Free Quote</span>
+                  <span style={{ whiteSpace: "nowrap" }} className="whitespace-nowrap inline-block">
+                    Book&#160;Free&#160;Quote
+                  </span>
                 </Link>
               </div>
 

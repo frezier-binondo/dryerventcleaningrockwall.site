@@ -23,23 +23,23 @@ export function Footer() {
                 Restore full dryer airflow, cut drying cycles in half, and protect your loved ones with our certified rotary brush cleaning.
               </p>
             </div>
-            <div className="flex flex-row items-center gap-3 sm:gap-4 shrink-0">
+            <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-4 shrink-0 w-full lg:w-auto">
               <a
                 href={`tel:${COMPANY.phone}`}
                 style={{ whiteSpace: "nowrap" }}
-                className="px-6 sm:px-8 py-3.5 sm:py-4 bg-amber-500 hover:bg-amber-400 text-slate-950 font-black rounded-2xl text-base sm:text-lg flex items-center justify-center gap-2 sm:gap-3 shadow-xl shadow-amber-500/20 hover:scale-105 transition-all whitespace-nowrap shrink-0"
+                className="px-6 sm:px-8 py-3.5 sm:py-4 bg-amber-500 hover:bg-amber-400 text-slate-950 font-black rounded-2xl text-base sm:text-lg inline-flex items-center justify-center gap-2 sm:gap-3 shadow-xl shadow-amber-500/20 hover:scale-105 transition-all whitespace-nowrap shrink-0 min-w-fit"
               >
                 <Phone className="w-5 h-5 sm:w-6 sm:h-6 fill-current shrink-0" />
-                <span style={{ whiteSpace: "nowrap" }} className="whitespace-nowrap">
+                <span style={{ whiteSpace: "nowrap" }} className="whitespace-nowrap inline-block">
                   +1&#160;(469)&#160;402&#8209;9980
                 </span>
               </a>
               <Link
                 href="/contact"
                 style={{ whiteSpace: "nowrap" }}
-                className="px-6 sm:px-8 py-3.5 sm:py-4 bg-sky-600 hover:bg-sky-500 text-white font-bold rounded-2xl text-base sm:text-lg flex items-center justify-center gap-2 transition-all hover:scale-105 whitespace-nowrap shrink-0"
+                className="px-6 sm:px-8 py-3.5 sm:py-4 bg-sky-600 hover:bg-sky-500 text-white font-bold rounded-2xl text-base sm:text-lg inline-flex items-center justify-center gap-2 transition-all hover:scale-105 whitespace-nowrap shrink-0 min-w-fit"
               >
-                <span style={{ whiteSpace: "nowrap" }} className="whitespace-nowrap">
+                <span style={{ whiteSpace: "nowrap" }} className="whitespace-nowrap inline-block">
                   Book&#160;Free&#160;Quote
                 </span>
               </Link>
