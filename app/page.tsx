@@ -32,76 +32,140 @@ export const metadata: Metadata = {
 export default function HomePage() {
   return (
     <div className="flex flex-col min-h-screen">
-      {/* HERO SECTION */}
+      {/* HERO SECTION - PHONE-FIRST CALL-FOCUSED BANNER */}
       <section className="relative bg-gradient-to-br from-slate-950 via-slate-900 to-sky-950 text-white overflow-hidden py-16 lg:py-24 border-b border-slate-800">
         <div className="absolute inset-0 opacity-20 pointer-events-none bg-[radial-gradient(#38bdf8_1px,transparent_1px)] [background-size:20px_20px]"></div>
+        
+        {/* Warm Ambient Glow behind CTA */}
+        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl pointer-events-none"></div>
+        <div className="absolute bottom-10 right-1/4 w-96 h-96 bg-sky-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-            {/* Left Copy */}
+            {/* Left Column: High-Urgency Call-First Messaging */}
             <div className="lg:col-span-7 space-y-6">
-              <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-amber-500/15 border border-amber-500/30 text-amber-300 text-xs sm:text-sm font-bold">
-                <Flame className="w-4 h-4 text-amber-400 animate-pulse" />
-                <span>#1 Rated Dryer Vent Cleaning in Rockwall, Texas</span>
+              <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-amber-500/20 border border-amber-500/40 text-amber-300 text-xs sm:text-sm font-bold shadow-lg shadow-amber-500/10">
+                <span className="relative flex h-2.5 w-2.5">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
+                  <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-amber-500"></span>
+                </span>
+                <span>Fast Same-Day Dispatch Across Rockwall County</span>
               </div>
 
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight text-white leading-tight">
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight text-white leading-[1.1]">
                 Dryer Vent Cleaning in <span className="text-sky-400">Rockwall, TX</span>
               </h1>
 
               <p className="text-lg sm:text-xl text-slate-300 leading-relaxed max-w-2xl font-normal">
-                Protect your home from hidden dryer fire hazards and cut drying cycles in half. We deliver complete mechanical rotary brush cleaning, video camera scoping, and airflow verification across Rockwall, Heath, Fate, Royse City, Rowlett, and Wylie.
+                Don&apos;t wait for a dangerous dryer fire. If your dryer is running hot or taking 2+ cycles to dry, our certified technicians are on call right now to restore full airflow and protect your home.
               </p>
 
-              {/* Trust Badges Bar */}
-              <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 py-2">
-                <div className="flex items-center gap-2 text-xs sm:text-sm text-slate-200">
+              {/* Trust Badges */}
+              <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 py-1">
+                <div className="flex items-center gap-2 text-xs sm:text-sm font-semibold text-slate-200">
                   <ShieldCheck className="w-5 h-5 text-emerald-400 shrink-0" />
                   <span>Licensed &amp; Insured</span>
                 </div>
-                <div className="flex items-center gap-2 text-xs sm:text-sm text-slate-200">
+                <div className="flex items-center gap-2 text-xs sm:text-sm font-semibold text-slate-200">
                   <Clock className="w-5 h-5 text-amber-400 shrink-0" />
-                  <span>Same-Day Dispatch</span>
+                  <span>Same-Day Service</span>
                 </div>
-                <div className="flex items-center gap-2 text-xs sm:text-sm text-slate-200">
+                <div className="flex items-center gap-2 text-xs sm:text-sm font-semibold text-slate-200">
                   <Wind className="w-5 h-5 text-sky-400 shrink-0" />
-                  <span>100% Lint Extraction</span>
+                  <span>100% Lint Removal</span>
                 </div>
               </div>
 
-              {/* Primary Call Action */}
-              <div className="pt-2 flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
+              {/* PRIMARY CALL CTA BUTTON ONLY (Eye-Catching, High Conversion) */}
+              <div className="pt-2 space-y-3">
                 <a
                   href={`tel:${COMPANY.phone}`}
-                  className="px-8 py-4 bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 text-slate-950 font-black rounded-2xl text-lg flex items-center justify-center gap-3 shadow-xl shadow-amber-500/25 transition-transform hover:scale-105"
+                  style={{ whiteSpace: "nowrap" }}
+                  className="group relative inline-flex items-center justify-center gap-4 px-7 sm:px-10 py-4 sm:py-5 bg-gradient-to-r from-amber-400 via-amber-500 to-orange-500 hover:from-amber-500 hover:to-orange-600 text-slate-950 font-black rounded-2xl text-xl sm:text-2xl shadow-2xl shadow-amber-500/40 hover:shadow-amber-500/60 transform hover:-translate-y-1 active:translate-y-0 transition-all border-2 border-amber-300/60 w-full sm:w-auto"
                 >
-                  <Phone className="w-5 h-5 fill-current" />
-                  <span>Call {COMPANY.phoneFormatted}</span>
+                  <span className="relative flex h-11 w-11 sm:h-12 sm:w-12 items-center justify-center rounded-xl bg-slate-950 text-amber-400 shadow-md group-hover:scale-110 transition-transform shrink-0">
+                    <Phone className="w-6 h-6 fill-current animate-bounce" />
+                  </span>
+                  <div className="text-left">
+                    <span className="block text-[10px] sm:text-xs uppercase font-extrabold tracking-wider text-slate-900/80">
+                      Tap To Call · Direct Tech Line
+                    </span>
+                    <span className="block tracking-tight text-slate-950 font-black text-xl sm:text-2xl">
+                      Call +1&#160;(469)&#160;402&#8209;9980
+                    </span>
+                  </div>
                 </a>
-                <Link
-                  href="/contact"
-                  className="px-7 py-4 bg-white/10 hover:bg-white/15 text-white font-bold rounded-2xl text-lg flex items-center justify-center gap-2 border border-white/20 transition-all"
-                >
-                  <span>Request Online Quote</span>
-                  <ArrowRight className="w-5 h-5" />
-                </Link>
+
+                <div className="flex items-center gap-2 text-xs sm:text-sm text-slate-300 pt-1">
+                  <span className="relative flex h-2.5 w-2.5">
+                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                    <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500"></span>
+                  </span>
+                  <span>
+                    <strong>Available Now:</strong> Speak directly with a technician · Free upfront phone quotes
+                  </span>
+                </div>
               </div>
 
               {/* Social Proof Snippet */}
-              <div className="flex items-center gap-3 pt-4 border-t border-slate-800">
+              <div className="flex items-center gap-3 pt-3 border-t border-slate-800">
                 <div className="flex text-amber-400">
                   {[...Array(5)].map((_, i) => (
                     <Star key={i} className="w-4 h-4 fill-current" />
                   ))}
                 </div>
-                <span className="text-xs sm:text-sm text-slate-400">
-                  <strong className="text-white">4.9 / 5.0 Rating</strong> based on 240+ Rockwall County homeowners
+                <span className="text-xs sm:text-sm text-slate-300">
+                  <strong className="text-white">4.9 / 5.0 Rating</strong> based on 240+ verified Rockwall homeowners
                 </span>
               </div>
             </div>
 
-            {/* Right Lead Capture Box */}
-            <div className="lg:col-span-5">
-              <LeadForm title="Book Your Rockwall Inspection" subtitle="Fast upfront estimates & same-day availability." />
+            {/* Right Column: Eye-Catching Visual Showcase Card */}
+            <div className="lg:col-span-5 relative">
+              <div className="relative rounded-3xl overflow-hidden shadow-2xl border-2 border-slate-700/80 group">
+                <div className="relative h-80 sm:h-[440px] w-full">
+                  <Image
+                    src="/images/hero-dryer-vent.jpg"
+                    alt="Professional Dryer Vent Cleaning Technician in Rockwall TX"
+                    fill
+                    priority
+                    className="object-cover group-hover:scale-105 transition-transform duration-700"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent"></div>
+
+                  {/* Top Live Status Pill */}
+                  <div className="absolute top-4 left-4 right-4 flex items-center justify-between pointer-events-none">
+                    <div className="bg-slate-950/85 backdrop-blur-md px-3.5 py-1.5 rounded-full border border-slate-700 text-xs font-bold text-white flex items-center gap-2 shadow-lg">
+                      <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                      <span>On Call in Rockwall</span>
+                    </div>
+                    <div className="bg-amber-500 text-slate-950 px-3 py-1 rounded-full text-xs font-black shadow-lg">
+                      100% Guaranteed
+                    </div>
+                  </div>
+
+                  {/* Bottom Action Card Overlay */}
+                  <div className="absolute bottom-5 left-5 right-5">
+                    <div className="bg-slate-950/90 backdrop-blur-md p-4 rounded-2xl border border-slate-800 shadow-xl flex items-center justify-between gap-3">
+                      <div>
+                        <p className="text-[11px] uppercase font-black tracking-wider text-amber-400">
+                          Rotary Power Sweeping
+                        </p>
+                        <p className="text-sm font-bold text-white mt-0.5">
+                          Commercial HEPA Negative-Air Extraction
+                        </p>
+                      </div>
+                      <a
+                        href={`tel:${COMPANY.phone}`}
+                        className="px-4 py-2.5 bg-amber-500 hover:bg-amber-400 text-slate-950 font-black rounded-xl text-xs flex items-center gap-1.5 shadow-lg transition-transform hover:scale-105 shrink-0"
+                      >
+                        <Phone className="w-3.5 h-3.5 fill-current" />
+                        <span>Call</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -157,8 +221,8 @@ export default function HomePage() {
               <div className="rounded-3xl overflow-hidden border border-slate-200 shadow-lg relative my-8">
                 <div className="relative h-72 sm:h-96 w-full">
                   <Image
-                    src="/images/hero-dryer-vent.jpg"
-                    alt="Professional Dryer Vent Cleaning in Rockwall Texas"
+                    src="/images/duct-brush-close-up.jpg"
+                    alt="Commercial Rotary Brush Cleaning Inside Dryer Vent"
                     fill
                     className="object-cover"
                   />
@@ -658,6 +722,88 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ONLINE ESTIMATE & LEAD CAPTURE SECTION (Moved from Hero Banner) */}
+      <section id="schedule-online" className="py-20 bg-slate-950 text-white border-t border-slate-800 relative overflow-hidden">
+        <div className="absolute inset-0 opacity-15 pointer-events-none bg-[radial-gradient(#38bdf8_1px,transparent_1px)] [background-size:24px_24px]"></div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+            {/* Left Content Column */}
+            <div className="lg:col-span-6 space-y-6">
+              <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-sky-500/20 text-sky-300 text-xs font-bold border border-sky-500/30">
+                <Clock className="w-3.5 h-3.5" />
+                <span>Prefer To Schedule Online?</span>
+              </div>
+
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-white tracking-tight leading-tight">
+                Request Your Rockwall Inspection Estimate
+              </h2>
+
+              <p className="text-slate-300 text-base sm:text-lg leading-relaxed font-normal">
+                Prefer not to call right now? Submit your service details below. Our local Rockwall dispatch desk reviews requests throughout the day and will confirm your appointment with upfront, flat-rate pricing.
+              </p>
+
+              <div className="space-y-4 pt-2">
+                <div className="flex items-start gap-3.5">
+                  <div className="w-7 h-7 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center font-bold text-sm shrink-0 mt-0.5">
+                    ✓
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-white text-base">Fast 15-Minute Response Time</h3>
+                    <p className="text-slate-400 text-sm mt-0.5">During service hours, we confirm appointments and provide instant answers.</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-3.5">
+                  <div className="w-7 h-7 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center font-bold text-sm shrink-0 mt-0.5">
+                    ✓
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-white text-base">Upfront Flat-Rate Pricing</h3>
+                    <p className="text-slate-400 text-sm mt-0.5">No surprise travel charges or hidden fees across Rockwall County.</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-3.5">
+                  <div className="w-7 h-7 rounded-full bg-emerald-500/20 text-emerald-400 flex items-center justify-center font-bold text-sm shrink-0 mt-0.5">
+                    ✓
+                  </div>
+                  <div>
+                    <h3 className="font-bold text-white text-base">Zero-Obligation Estimate</h3>
+                    <p className="text-slate-400 text-sm mt-0.5">Full airflow and duct evaluation before any work begins.</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Emergency Call-First Reminder Box */}
+              <div className="p-5 rounded-2xl bg-gradient-to-r from-amber-500/15 via-slate-900 to-sky-950/40 border border-amber-500/30 flex flex-col sm:flex-row sm:items-center justify-between gap-4 mt-6">
+                <div>
+                  <p className="text-xs uppercase font-extrabold tracking-wider text-amber-400">Need Immediate Help?</p>
+                  <p className="text-sm font-bold text-white mt-0.5">Our certified dispatchers are taking calls now.</p>
+                </div>
+                <a
+                  href={`tel:${COMPANY.phone}`}
+                  style={{ whiteSpace: "nowrap" }}
+                  className="px-5 py-3 bg-amber-500 hover:bg-amber-400 text-slate-950 font-black rounded-xl text-sm flex items-center justify-center gap-2 shadow-lg transition-transform hover:scale-105 shrink-0 whitespace-nowrap"
+                >
+                  <Phone className="w-4 h-4 fill-current shrink-0" />
+                  <span>Call {COMPANY.phoneFormatted}</span>
+                </a>
+              </div>
+            </div>
+
+            {/* Right Form Column */}
+            <div className="lg:col-span-6">
+              <div className="bg-slate-900/90 p-2 sm:p-4 rounded-3xl border border-slate-800 shadow-2xl">
+                <LeadForm
+                  title="Schedule Your Inspection"
+                  subtitle="Fast confirmation from our local Rockwall dispatch desk."
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* FINAL CONVERSION SECTION */}
       <section className="bg-gradient-to-r from-sky-600 to-sky-800 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -676,7 +822,7 @@ export default function HomePage() {
               <span>Call {COMPANY.phoneFormatted}</span>
             </a>
             <Link
-              href="/contact"
+              href="#schedule-online"
               className="px-8 py-4 bg-white hover:bg-slate-100 text-sky-900 font-bold rounded-2xl text-lg transition-all hover:scale-105"
             >
               <span>Book Appointment Online</span>
