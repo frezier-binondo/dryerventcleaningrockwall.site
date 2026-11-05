@@ -24,7 +24,7 @@ import { LeadForm } from "@/components/LeadForm";
 import { ContentLink } from "@/components/ContentLink";
 
 export const metadata: Metadata = {
-  title: "Dryer Vent Cleaning Rockwall TX | Professional Service",
+  title: "Dryer Vent Cleaning Rockwall TX",
   description:
     "Keep your home safe and your dryer efficient with professional dryer vent cleaning in Rockwall, TX. Remove lint, improve airflow. Request service today.",
 };

@@ -16,7 +16,7 @@ import { LeadForm } from "@/components/LeadForm";
 import { ContentLink } from "@/components/ContentLink";
 
 export const metadata: Metadata = {
-  title: "Dryer Vent Cleaning Near Rockwall TX | Service Areas",
+  title: "Dryer Vent Cleaning Near Rockwall TX",
   description:
     "We provide dryer vent cleaning in Rockwall, Heath, Fate, Royse City, Rowlett and Wylie, TX. See your city and request service today.",
 };

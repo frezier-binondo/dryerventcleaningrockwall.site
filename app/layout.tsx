@@ -20,8 +20,8 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://dryerventcleaningrockwall.site"),
   title: {
-    default: "Dryer Vent Cleaning Rockwall TX | Professional Service",
-    template: "%s | Dryer Vent Cleaning Rockwall",
+    default: "Dryer Vent Cleaning Rockwall TX",
+    template: "%s",
   },
   description:
     "Keep your home safe and your dryer efficient with professional dryer vent cleaning in Rockwall, TX. Remove lint, improve airflow. Request service today.",
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     address: true,
   },
   openGraph: {
-    title: "Dryer Vent Cleaning Rockwall TX | Professional Service",
+    title: "Dryer Vent Cleaning Rockwall TX",
     description:
       "Keep your home safe and your dryer efficient with professional dryer vent cleaning in Rockwall, TX. Certified technicians, fast quotes, same-day service.",
     url: "https://dryerventcleaningrockwall.site",
@@ -64,7 +64,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Dryer Vent Cleaning Rockwall TX | Professional Service",
+    title: "Dryer Vent Cleaning Rockwall TX",
     description:
       "Keep your home safe and your dryer efficient with professional dryer vent cleaning in Rockwall, TX. Fast quotes & certified technicians.",
     images: ["https://dryerventcleaningrockwall.site/images/hero-dryer-vent.jpg"],
